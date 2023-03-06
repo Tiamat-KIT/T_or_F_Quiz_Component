@@ -4,9 +4,13 @@ export default function Quiz(){
     
     return (
         <>
+            <div className="container mx-auto p-5">
             <div className="card">
                 <div className="card-body card-bordered">
                 <div className="text-center card-title">問題</div>
+                <figure>
+                <Image src="/testImage.jpg" width={500} height={250} alt="image" />
+                </figure>
                 <p>問題文が云々</p>
                 <div className="flex">
                     <div className="flex-1 place-self-center">
@@ -27,7 +31,8 @@ export default function Quiz(){
                     </div>
                 </div>
                 </div>
-            </div>            
+            </div>  
+            </div>          
         </>
     )
 }
