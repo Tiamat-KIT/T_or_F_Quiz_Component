@@ -4,9 +4,11 @@ export default function Quiz(){
     
     return (
         <>
-            <div className="justify-center bg-color-blue">
-                <div className="text-center">問題文がうんたらかんたら</div>
-                <div className="flex place-items-center content-center place-content-center">
+            <div className="card">
+                <div className="card-body card-bordered">
+                <div className="text-center card-title">問題</div>
+                <p>問題文が云々</p>
+                <div className="flex">
                     <div className="flex-1 place-self-center">
                         <h2>正しい</h2>
                         <button className="btn btn-square btn-ghost">
@@ -23,6 +25,7 @@ export default function Quiz(){
                             </div>
                         </button>
                     </div>
+                </div>
                 </div>
             </div>            
         </>
