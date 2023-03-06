@@ -27,11 +27,11 @@ export default function Quiz(){
             </div>
         )
     }
-    
+
     function Card({children}: {children: React.ReactNode}){
         return(
-            <div className="card">
-                <div className="card-body card-bordered">
+            <div className="card bg-slate-100">
+                <div className="card-body rounded-lg border-2 border-gray">
                     {children}
                 </div>
             </div>
