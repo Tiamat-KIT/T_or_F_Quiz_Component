@@ -11,7 +11,7 @@ export default function Quiz(){
                         <h2>正しい</h2>
                         <div>
                             ここに○を置く
-                            {/* <Image src="/public/technology_blue_circle.png" width={75} height={75} alt="true"/> */}
+                            <Image src="/technology_blue_circle.png" width={75} height={75} alt="true"/>
                         </div>
                     </div>
                     <div className="flex-1 place-self-center">
