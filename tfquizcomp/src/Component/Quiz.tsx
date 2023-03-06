@@ -17,7 +17,11 @@ export default function Quiz(){
                     </div>
                     <div className="flex-1 place-self-center">
                         <h2>正しくない</h2>
-                        <div>ここに×を置く</div>
+                        <button className="btn btn-square btn-ghost">
+                            <div>
+                                <Image src="/Batsu.png" width={75} height={75} alt="true" />
+                            </div>
+                        </button>
                     </div>
                 </div>
             </div>            
