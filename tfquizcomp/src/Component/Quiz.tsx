@@ -19,6 +19,7 @@ export default function Quiz(){
             </div>
         )
     }
+
     function Container({children}: {children: React.ReactNode}){
         return(
             <div className="container mx-auto p-5">
@@ -26,6 +27,7 @@ export default function Quiz(){
             </div>
         )
     }
+    
     function Card({children}: {children: React.ReactNode}){
         return(
             <div className="card">
